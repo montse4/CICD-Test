@@ -22,4 +22,8 @@ jobs:
        - name: Create artifact directory
          run: mkdir artifact/PhysicsGame
 
+       - name: Cpy the executable to the artifact directory
+         run: cpoy .Build\PhysicsGame\Release\Win32\PhysicsGame.exe ./artifact/PhysicsGame
+
+
   
